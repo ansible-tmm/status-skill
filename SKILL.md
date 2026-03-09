@@ -127,7 +127,7 @@ Do NOT ask about every single meeting or topic -- focus on the 3-5 most signific
 
 ## Phase 4: Generate Report
 
-Generate a markdown status report and save it to `~/Desktop/status-report-YYYY-MM-DD.md` (using the end date of the reporting period).
+Output the status report inside a fenced code block (```text) so the user gets a copy button in the Claude Code UI. Also save to `~/Desktop/status-report-YYYY-MM-DD.md` (using the end date) as a backup. Do NOT use markdown formatting (`#`, `**`, `` ` ``) inside the report -- keep it plain text so it pastes cleanly into Google Docs.
 
 ### Report Template
 
@@ -175,10 +175,9 @@ org/ssl-certs, org/mcp-tools, org/service-config: Applied minor configuration ch
 ## Phase 5: Review
 
 After generating the report:
-1. Show the user the complete report
-2. Ask: "Would you like to adjust anything in this report?"
-3. Make any requested changes
-4. Confirm the final file location
+1. The report is already displayed in the code block with a copy button
+2. Ask: "Would you like to adjust anything? If not, click the copy button above and paste into your Google Doc."
+3. If the user requests changes, regenerate the report in a new code block
 
 ## Error Handling
 
