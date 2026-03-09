@@ -1,0 +1,18 @@
+# Apps Script Web App URL
+#
+# This file should contain a single line with your deployed Apps Script URL.
+# Do NOT commit the real URL to git -- it's gitignored for security.
+#
+# Setup:
+#   1. Open Google Apps Script: https://script.google.com
+#   2. Create a new project and paste the contents of ../apps-script-code.js
+#   3. In the Apps Script editor, go to Services > add "Drive API" (v3)
+#   4. Deploy > New deployment > Web app
+#      - Execute as: "User accessing the web app"
+#      - Who has access: "Anyone within [your org]"
+#   5. Copy the deployment URL and save it to this file (without the .example extension):
+#      cp apps-script-url.txt.example apps-script-url.txt
+#      echo "https://script.google.com/a/macros/yourorg.com/s/YOUR_DEPLOY_ID/exec" > apps-script-url.txt
+#
+# If a teammate has already deployed the Apps Script, ask them for the URL.
+# Since it's deployed with "Anyone within the organization", all org members can use the same URL.

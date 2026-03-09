@@ -1,0 +1,6 @@
+# Sensitive config - shared via Slack/team docs
+scripts/config/apps-script-url.txt
+
+# Runtime output
+/tmp/
+*.log
