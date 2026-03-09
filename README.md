@@ -15,7 +15,7 @@ A Claude Code skill that generates weekly status reports by pulling data from Go
 Clone this repo into your Claude Code skills directory:
 
 ```bash
-git clone <repo-url> ~/.claude/skills/status-report
+git clone https://github.com/ansible-tmm/status-skill.git ~/.claude/skills/status-report
 ```
 
 ### 2. Configure the Apps Script URL
