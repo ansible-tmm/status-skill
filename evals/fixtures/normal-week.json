@@ -1,0 +1,431 @@
+{
+  "metadata": {
+    "user": "jsmith@redhat.com",
+    "userName": "Jane Smith",
+    "date_range": { "start": "2026-03-02", "end": "2026-03-06" },
+    "generated_at": "2026-03-07T14:30:00.000Z"
+  },
+  "calendar": {
+    "total": 14,
+    "totalMeetingMinutes": 690,
+    "events": [
+      {
+        "id": "evt_001",
+        "summary": "Daily Standup",
+        "description": "",
+        "start": "2026-03-02T09:00:00-05:00",
+        "end": "2026-03-02T09:15:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 15,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false },
+          { "email": "dkim@redhat.com", "displayName": "Dana Kim", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/abc-defg-hij",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_002",
+        "summary": "Daily Standup",
+        "description": "",
+        "start": "2026-03-03T09:00:00-05:00",
+        "end": "2026-03-03T09:15:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 15,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/abc-defg-hij",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_003",
+        "summary": "Daily Standup",
+        "description": "",
+        "start": "2026-03-04T09:00:00-05:00",
+        "end": "2026-03-04T09:15:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 15,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/abc-defg-hij",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_004",
+        "summary": "Daily Standup",
+        "description": "",
+        "start": "2026-03-05T09:00:00-05:00",
+        "end": "2026-03-05T09:15:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 15,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/abc-defg-hij",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_005",
+        "summary": "Daily Standup",
+        "description": "",
+        "start": "2026-03-06T09:00:00-05:00",
+        "end": "2026-03-06T09:15:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 15,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/abc-defg-hij",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_006",
+        "summary": "1:1 with Pat Lee",
+        "description": "Weekly sync with manager",
+        "start": "2026-03-03T10:00:00-05:00",
+        "end": "2026-03-03T10:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 30,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/xyz-uvwx-yz",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_007",
+        "summary": "Acme Corp - Migration Planning",
+        "description": "Discuss migration timeline and blockers with Acme Corp engineering team",
+        "start": "2026-03-02T14:00:00-05:00",
+        "end": "2026-03-02T15:00:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 60,
+        "location": "",
+        "organizer": { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "self": true },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "bob.jones@acmecorp.com", "displayName": "Bob Jones", "responseStatus": "yes", "self": false },
+          { "email": "sarah.w@acmecorp.com", "displayName": "Sarah Williams", "responseStatus": "yes", "self": false },
+          { "email": "dkim@redhat.com", "displayName": "Dana Kim", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/cust-meet-001",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_008",
+        "summary": "AIOps Workshop Dry Run",
+        "description": "Practice run for the upcoming AIOps workshop presentation",
+        "start": "2026-03-03T13:00:00-05:00",
+        "end": "2026-03-03T14:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 90,
+        "location": "",
+        "organizer": { "email": "alex.chen@redhat.com", "displayName": "Alex Chen", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "alex.chen@redhat.com", "displayName": "Alex Chen", "responseStatus": "yes", "self": false },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false },
+          { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/wkshp-dry-run",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_009",
+        "summary": "Platform Engineering Sync",
+        "description": "Cross-team sync on platform automation initiatives",
+        "start": "2026-03-04T11:00:00-05:00",
+        "end": "2026-03-04T12:00:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 60,
+        "location": "",
+        "organizer": { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "responseStatus": "yes", "self": false },
+          { "email": "alex.chen@redhat.com", "displayName": "Alex Chen", "responseStatus": "yes", "self": false },
+          { "email": "maria.g@redhat.com", "displayName": "Maria Garcia", "responseStatus": "yes", "self": false },
+          { "email": "dkim@redhat.com", "displayName": "Dana Kim", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/plat-eng-sync",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_010",
+        "summary": "Globex Industries - AAP Demo",
+        "description": "Live demo of Ansible Automation Platform for Globex Industries",
+        "start": "2026-03-04T15:00:00-05:00",
+        "end": "2026-03-04T16:00:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 60,
+        "location": "",
+        "organizer": { "email": "sales-rep@redhat.com", "displayName": "Tom Rivera", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "sales-rep@redhat.com", "displayName": "Tom Rivera", "responseStatus": "yes", "self": false },
+          { "email": "cto@globexind.com", "displayName": "Lisa Park", "responseStatus": "yes", "self": false },
+          { "email": "devops-lead@globexind.com", "displayName": "Mark Chen", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/glob-demo-001",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_011",
+        "summary": "Q2 Planning Review",
+        "description": "Review Q2 objectives and key results with leadership",
+        "start": "2026-03-05T10:00:00-05:00",
+        "end": "2026-03-05T11:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 90,
+        "location": "",
+        "organizer": { "email": "vp@redhat.com", "displayName": "Chris Taylor", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "vp@redhat.com", "displayName": "Chris Taylor", "responseStatus": "yes", "self": false },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false },
+          { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "responseStatus": "yes", "self": false },
+          { "email": "alex.chen@redhat.com", "displayName": "Alex Chen", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/q2-plan-rev",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_012",
+        "summary": "Acme Corp - Follow-up",
+        "description": "Follow-up on migration blockers from Monday",
+        "start": "2026-03-05T14:00:00-05:00",
+        "end": "2026-03-05T14:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 30,
+        "location": "",
+        "organizer": { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "self": true },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "bob.jones@acmecorp.com", "displayName": "Bob Jones", "responseStatus": "yes", "self": false },
+          { "email": "dkim@redhat.com", "displayName": "Dana Kim", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "https://meet.google.com/cust-meet-002",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_013",
+        "summary": "Focus Time",
+        "description": "",
+        "start": "2026-03-06T13:00:00-05:00",
+        "end": "2026-03-06T16:00:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 180,
+        "location": "",
+        "organizer": { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "self": true },
+        "attendees": [],
+        "conferenceLink": "",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_014",
+        "summary": "Company All-Hands",
+        "description": "",
+        "start": "2026-03-06T10:00:00-05:00",
+        "end": "2026-03-06T11:00:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 60,
+        "location": "",
+        "organizer": { "email": "ceo@redhat.com", "displayName": "CEO", "self": false },
+        "attendees": [],
+        "conferenceLink": "https://meet.google.com/all-hands",
+        "isRecurring": true,
+        "calendarName": "Work"
+      }
+    ]
+  },
+  "email": {
+    "sent": [
+      {
+        "id": "msg_001",
+        "threadId": "thread_001",
+        "subject": "Re: Acme Corp Migration Timeline",
+        "to": "bob.jones@acmecorp.com, dkim@redhat.com",
+        "date": "2026-03-02T16:30:00.000Z",
+        "snippet": "Hi Bob, Following up on our call today. We've identified the three main blockers for the migration: 1) SSL certificate renewal on the legacy cluster, 2) Network policy conflicts..."
+      },
+      {
+        "id": "msg_002",
+        "threadId": "thread_002",
+        "subject": "AIOps Workshop Materials - Ready for Review",
+        "to": "alex.chen@redhat.com, mgr@redhat.com",
+        "date": "2026-03-03T20:15:00.000Z",
+        "snippet": "Hi Alex, I've finished updating the workshop exercises to reflect the new platform version. The deck is in the shared drive. Main changes: updated all screenshots, added new hands-on lab for..."
+      },
+      {
+        "id": "msg_003",
+        "threadId": "thread_003",
+        "subject": "Globex Industries Demo - Prep Notes",
+        "to": "sales-rep@redhat.com",
+        "date": "2026-03-04T12:00:00.000Z",
+        "snippet": "Hi Tom, Here are the prep notes for the Globex demo tomorrow. Key talking points: 1) Their current pain with manual provisioning, 2) AAP workflow demo with their use case, 3) ROI calculator..."
+      },
+      {
+        "id": "msg_004",
+        "threadId": "thread_004",
+        "subject": "Q2 Automation Objectives - Draft",
+        "to": "mgr@redhat.com, ravi.p@redhat.com",
+        "date": "2026-03-05T18:00:00.000Z",
+        "snippet": "Hi Pat, Ravi -- Attached my draft Q2 objectives based on today's planning session. Three main areas: 1) Scale customer workshops to 2x, 2) Launch self-service demo environment, 3) Contribute..."
+      },
+      {
+        "id": "msg_005",
+        "threadId": "thread_001",
+        "subject": "Re: Acme Corp Migration Timeline",
+        "to": "bob.jones@acmecorp.com, dkim@redhat.com, mgr@redhat.com",
+        "date": "2026-03-05T15:00:00.000Z",
+        "snippet": "Quick update - the SSL cert issue is resolved. Dana and I worked through the network policy conflicts during today's call. Remaining blocker is the database schema migration which Acme's DBA..."
+      },
+      {
+        "id": "msg_006",
+        "threadId": "thread_005",
+        "subject": "Workshop Feedback Summary - Feb Cohort",
+        "to": "alex.chen@redhat.com, mgr@redhat.com, vp@redhat.com",
+        "date": "2026-03-06T14:00:00.000Z",
+        "snippet": "Sharing the feedback summary from the February workshop cohort. Overall NPS: 72. Key highlights: participants loved the hands-on labs, requested more advanced networking scenarios. Full report..."
+      }
+    ],
+    "received_summary": {
+      "total": 47,
+      "top_senders": [
+        { "email": "mgr@redhat.com", "count": 8 },
+        { "email": "alex.chen@redhat.com", "count": 6 },
+        { "email": "bob.jones@acmecorp.com", "count": 5 },
+        { "email": "dkim@redhat.com", "count": 4 },
+        { "email": "ravi.p@redhat.com", "count": 3 },
+        { "email": "notifications@github.com", "count": 12 }
+      ]
+    }
+  },
+  "transcripts": {
+    "total": 2,
+    "transcripts": [
+      {
+        "meeting_title": "AIOps Workshop Dry Run",
+        "date": "2026-03-03T19:30:00.000Z",
+        "doc_id": "doc_transcript_001",
+        "doc_url": "https://docs.google.com/document/d/doc_transcript_001/edit",
+        "participants": ["Jane Smith", "Alex Chen", "Pat Lee", "Ravi Patel"],
+        "user_contributions": [
+          {
+            "timestamp": "0:02:15",
+            "text": "So for the first lab exercise, I've restructured it to follow the new platform workflow. Instead of having participants manually create the inventory, they'll use the auto-discovery feature which is more realistic."
+          },
+          {
+            "timestamp": "0:15:30",
+            "text": "The main feedback from last cohort was that the networking section felt rushed. I've added an extra 20 minutes and split it into two exercises - basic network automation and then the advanced policy-as-code scenario."
+          },
+          {
+            "timestamp": "0:28:45",
+            "text": "For the demo environment, I'm proposing we use the new self-service provisioning. Each participant gets their own sandbox. I've already tested it with up to 30 concurrent users and it handles the load fine."
+          }
+        ],
+        "total_lines": 342
+      },
+      {
+        "meeting_title": "Globex Industries - AAP Demo",
+        "date": "2026-03-04T21:00:00.000Z",
+        "doc_id": "doc_transcript_002",
+        "doc_url": "https://docs.google.com/document/d/doc_transcript_002/edit",
+        "participants": ["Jane Smith", "Tom Rivera", "Lisa Park", "Mark Chen"],
+        "user_contributions": [
+          {
+            "timestamp": "0:05:00",
+            "text": "Thanks everyone for joining. Today I'll walk you through how Ansible Automation Platform can address the manual provisioning challenges you described. We'll look at three scenarios that map directly to your current workflow."
+          },
+          {
+            "timestamp": "0:18:30",
+            "text": "This workflow template is what handles the end-to-end server provisioning. Notice how it automatically runs the compliance checks after provisioning. Your team wouldn't need to manually trigger those separately."
+          },
+          {
+            "timestamp": "0:35:12",
+            "text": "Great question, Lisa. The role-based access control means your dev teams can self-service their own infrastructure requests without needing to go through a ticket queue. We've seen customers reduce their provisioning time from days to minutes."
+          }
+        ],
+        "total_lines": 256
+      }
+    ]
+  },
+  "documents": {
+    "total": 4,
+    "documents": [
+      {
+        "id": "doc_001",
+        "name": "AIOps Workshop - Exercises v3",
+        "type": "doc",
+        "modified": "2026-03-03T20:00:00.000Z",
+        "created": "2026-02-15T10:00:00.000Z",
+        "url": "https://docs.google.com/document/d/doc_001/edit",
+        "isOwner": true,
+        "wasCreatedThisWeek": false
+      },
+      {
+        "id": "doc_002",
+        "name": "Globex Industries - AAP Demo Deck",
+        "type": "slides",
+        "modified": "2026-03-04T13:00:00.000Z",
+        "created": "2026-03-03T09:00:00.000Z",
+        "url": "https://docs.google.com/presentation/d/doc_002/edit",
+        "isOwner": true,
+        "wasCreatedThisWeek": true
+      },
+      {
+        "id": "doc_003",
+        "name": "Q2 Automation Objectives - Draft",
+        "type": "doc",
+        "modified": "2026-03-05T17:30:00.000Z",
+        "created": "2026-03-05T14:00:00.000Z",
+        "url": "https://docs.google.com/document/d/doc_003/edit",
+        "isOwner": true,
+        "wasCreatedThisWeek": true
+      },
+      {
+        "id": "doc_004",
+        "name": "Feb Workshop Cohort - Feedback Report",
+        "type": "doc",
+        "modified": "2026-03-06T13:30:00.000Z",
+        "created": "2026-03-06T10:00:00.000Z",
+        "url": "https://docs.google.com/document/d/doc_004/edit",
+        "isOwner": true,
+        "wasCreatedThisWeek": true
+      }
+    ]
+  }
+}

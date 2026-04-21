@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "user": "jsmith@redhat.com",
+    "userName": "Jane Smith",
+    "date_range": { "start": "2026-03-16", "end": "2026-03-20" },
+    "generated_at": "2026-03-21T10:00:00.000Z"
+  },
+  "calendar": {
+    "total": 3,
+    "totalMeetingMinutes": 150,
+    "events": [
+      {
+        "id": "evt_201",
+        "summary": "Sprint Planning",
+        "description": "Plan next sprint work items",
+        "start": "2026-03-16T10:00:00-05:00",
+        "end": "2026-03-16T11:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 90,
+        "location": "",
+        "organizer": { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "ravi.p@redhat.com", "displayName": "Ravi Patel", "responseStatus": "yes", "self": false },
+          { "email": "dkim@redhat.com", "displayName": "Dana Kim", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "",
+        "isRecurring": false,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_202",
+        "summary": "1:1 with Pat Lee",
+        "description": "",
+        "start": "2026-03-17T10:00:00-05:00",
+        "end": "2026-03-17T10:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 30,
+        "location": "",
+        "organizer": { "email": "mgr@redhat.com", "displayName": "Pat Lee", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "mgr@redhat.com", "displayName": "Pat Lee", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "",
+        "isRecurring": true,
+        "calendarName": "Work"
+      },
+      {
+        "id": "evt_203",
+        "summary": "Initech Corp - Discovery Call",
+        "description": "Initial discovery with Initech Corp about automation needs",
+        "start": "2026-03-19T15:00:00-05:00",
+        "end": "2026-03-19T15:30:00-05:00",
+        "isAllDay": false,
+        "durationMinutes": 30,
+        "location": "",
+        "organizer": { "email": "sales2@redhat.com", "displayName": "Kim Santos", "self": false },
+        "attendees": [
+          { "email": "jsmith@redhat.com", "displayName": "Jane Smith", "responseStatus": "yes", "self": true },
+          { "email": "sales2@redhat.com", "displayName": "Kim Santos", "responseStatus": "yes", "self": false },
+          { "email": "cio@initech.com", "displayName": "Bill Lumbergh", "responseStatus": "yes", "self": false }
+        ],
+        "conferenceLink": "",
+        "isRecurring": false,
+        "calendarName": "Work"
+      }
+    ]
+  },
+  "email": {
+    "error": "Gmail API quota exceeded",
+    "sent": [],
+    "received_summary": { "total": 0, "top_senders": [] }
+  },
+  "transcripts": {
+    "total": 1,
+    "transcripts": [
+      {
+        "meeting_title": "Sprint Planning",
+        "date": "2026-03-16T16:30:00.000Z",
+        "doc_id": "doc_transcript_201",
+        "doc_url": "https://docs.google.com/document/d/doc_transcript_201/edit",
+        "error": "Export failed: Document too large"
+      }
+    ]
+  },
+  "documents": {
+    "error": "Drive API access denied",
+    "documents": []
+  }
+}

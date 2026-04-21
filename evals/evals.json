@@ -1,0 +1,32 @@
+{
+  "skill_name": "status-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Generate my weekly status report. My name is Jane Smith, email jsmith@redhat.com, GitHub username janesmith. Here's my Google Workspace data:\n\n<paste contents of evals/fixtures/normal-week.json>\n\nFor GitHub, use the data in evals/fixtures/github-activity.json instead of running fetch-github.js.",
+      "expected_output": "A well-structured status report that: (1) skips daily standups and recurring 1:1s, (2) highlights the Acme Corp migration work with customer names, (3) mentions the AIOps Workshop Dry Run with Alex Chen, (4) covers the Globex Industries demo with external attendees named, (5) mentions Q2 Planning Review, (6) lists documents created this week (Globex demo deck, Q2 objectives, feedback report), (7) groups GitHub commits by repo with org/ prefix and outcome-focused descriptions, (8) mentions PRs opened/merged/reviewed and cross-team reviews, (9) is plain text without markdown formatting, (10) follows the report template format with documents: and development: sections",
+      "files": [
+        "evals/fixtures/normal-week.json",
+        "evals/fixtures/github-activity.json"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I need my status report for last week. Name: Jane Smith, email: jsmith@redhat.com, GitHub: janesmith. Here's the Apps Script data:\n\n<paste contents of evals/fixtures/light-week.json>\n\nFor GitHub, use evals/fixtures/github-activity-light.json instead of running fetch-github.js.",
+      "expected_output": "A shorter status report that: (1) notes the PTO days (Wed-Thu), (2) mentions the Team Retro only if something notable, (3) skips standup and 1:1, (4) has minimal GitHub activity (just minor mcp-tools commits and one review), (5) does not include empty documents or transcripts sections, (6) is proportionally shorter given the light week, (7) is plain text without markdown",
+      "files": [
+        "evals/fixtures/light-week.json",
+        "evals/fixtures/github-activity-light.json"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Generate my weekly status report. Jane Smith, jsmith@redhat.com, GitHub janesmith. Here's the workspace data:\n\n<paste contents of evals/fixtures/partial-errors.json>\n\nFor GitHub, use evals/fixtures/github-activity-light.json. Note that some data sources had errors.",
+      "expected_output": "A report that: (1) gracefully handles the email error (mentions gap or proceeds without), (2) handles the transcript export error, (3) handles the documents API error, (4) still produces a useful report from calendar + GitHub data, (5) mentions Sprint Planning and Initech Corp discovery call, (6) mentions the external attendees on the Initech call, (7) does not crash or produce empty output due to errors",
+      "files": [
+        "evals/fixtures/partial-errors.json",
+        "evals/fixtures/github-activity-light.json"
+      ]
+    }
+  ]
+}

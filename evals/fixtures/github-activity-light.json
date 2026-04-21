@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "username": "janesmith",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-13",
+    "retrieved_at": "2026-03-14T10:05:00.000Z"
+  },
+  "commits": {
+    "total_count": 2,
+    "repos": ["ansible-tmm/mcp-tools"],
+    "details": [
+      {
+        "repo": "ansible-tmm/mcp-tools",
+        "message": "Fix typo in error message",
+        "date": "2026-03-09T14:00:00Z",
+        "sha": "x1y2z3a",
+        "url": "https://github.com/ansible-tmm/mcp-tools/commit/x1y2z3a"
+      },
+      {
+        "repo": "ansible-tmm/mcp-tools",
+        "message": "Update dependencies",
+        "date": "2026-03-13T16:00:00Z",
+        "sha": "b4c5d6e",
+        "url": "https://github.com/ansible-tmm/mcp-tools/commit/b4c5d6e"
+      }
+    ]
+  },
+  "pull_requests_opened": { "total_count": 0, "details": [] },
+  "pull_requests_merged": { "total_count": 0, "details": [] },
+  "pull_requests_reviewed": {
+    "total_count": 1,
+    "details": [
+      {
+        "repo": "ansible/workshops",
+        "title": "Fix broken link in lab 5 instructions",
+        "url": "https://github.com/ansible/workshops/pull/855"
+      }
+    ]
+  },
+  "issues_opened": { "total_count": 0, "details": [] },
+  "issues_closed": { "total_count": 0, "details": [] },
+  "repositories_created": { "total_count": 0, "details": [] }
+}

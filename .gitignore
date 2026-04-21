@@ -1,6 +1,14 @@
 # Sensitive config - shared via Slack/team docs
-scripts/config/apps-script-url.txt
+skills/status-skill/scripts/config/apps-script-url.txt
 
 # Runtime output
 /tmp/
 *.log
+status-report-*.html
+status-report-*.md
+
+# Eval workspace output
+status-skill-workspace/
+
+# OS junk
+.DS_Store

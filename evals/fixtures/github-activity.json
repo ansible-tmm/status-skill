@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "username": "janesmith",
+    "start_date": "2026-03-02",
+    "end_date": "2026-03-06",
+    "retrieved_at": "2026-03-07T14:35:00.000Z"
+  },
+  "commits": {
+    "total_count": 12,
+    "repos": [
+      "ansible/workshops",
+      "ansible-tmm/demo-provisioner",
+      "ansible-tmm/ee-builds",
+      "ansible-tmm/mcp-tools"
+    ],
+    "details": [
+      {
+        "repo": "ansible/workshops",
+        "message": "Update AIOps lab exercises for platform v2.5",
+        "date": "2026-03-02T15:30:00Z",
+        "sha": "a1b2c3d",
+        "url": "https://github.com/ansible/workshops/commit/a1b2c3d"
+      },
+      {
+        "repo": "ansible/workshops",
+        "message": "Add advanced networking lab with policy-as-code",
+        "date": "2026-03-02T16:45:00Z",
+        "sha": "e4f5g6h",
+        "url": "https://github.com/ansible/workshops/commit/e4f5g6h"
+      },
+      {
+        "repo": "ansible/workshops",
+        "message": "Fix lab timing estimates in instructor guide",
+        "date": "2026-03-03T10:20:00Z",
+        "sha": "i7j8k9l",
+        "url": "https://github.com/ansible/workshops/commit/i7j8k9l"
+      },
+      {
+        "repo": "ansible/workshops",
+        "message": "Update screenshots for new UI layout",
+        "date": "2026-03-03T11:00:00Z",
+        "sha": "m0n1o2p",
+        "url": "https://github.com/ansible/workshops/commit/m0n1o2p"
+      },
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "message": "Add self-service sandbox provisioning workflow",
+        "date": "2026-03-03T14:30:00Z",
+        "sha": "q3r4s5t",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/commit/q3r4s5t"
+      },
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "message": "Add concurrent user load testing for sandbox env",
+        "date": "2026-03-03T16:00:00Z",
+        "sha": "u6v7w8x",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/commit/u6v7w8x"
+      },
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "message": "Fix cleanup playbook to handle orphaned instances",
+        "date": "2026-03-04T09:15:00Z",
+        "sha": "y9z0a1b",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/commit/y9z0a1b"
+      },
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "message": "Add resource limits and quota enforcement",
+        "date": "2026-03-04T10:30:00Z",
+        "sha": "c2d3e4f",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/commit/c2d3e4f"
+      },
+      {
+        "repo": "ansible-tmm/ee-builds",
+        "message": "Bump collection versions for Q1 release",
+        "date": "2026-03-05T09:00:00Z",
+        "sha": "g5h6i7j",
+        "url": "https://github.com/ansible-tmm/ee-builds/commit/g5h6i7j"
+      },
+      {
+        "repo": "ansible-tmm/ee-builds",
+        "message": "Add cloud.terraform collection to standard EE",
+        "date": "2026-03-05T09:30:00Z",
+        "sha": "k8l9m0n",
+        "url": "https://github.com/ansible-tmm/ee-builds/commit/k8l9m0n"
+      },
+      {
+        "repo": "ansible-tmm/mcp-tools",
+        "message": "Update README with new configuration options",
+        "date": "2026-03-06T11:00:00Z",
+        "sha": "o1p2q3r",
+        "url": "https://github.com/ansible-tmm/mcp-tools/commit/o1p2q3r"
+      },
+      {
+        "repo": "ansible-tmm/mcp-tools",
+        "message": "Fix parameter validation for inventory queries",
+        "date": "2026-03-06T11:30:00Z",
+        "sha": "s4t5u6v",
+        "url": "https://github.com/ansible-tmm/mcp-tools/commit/s4t5u6v"
+      }
+    ]
+  },
+  "pull_requests_opened": {
+    "total_count": 2,
+    "details": [
+      {
+        "repo": "ansible/workshops",
+        "title": "Add AIOps v2.5 lab exercises with advanced networking",
+        "url": "https://github.com/ansible/workshops/pull/847",
+        "state": "open",
+        "created_at": "2026-03-03T17:00:00Z"
+      },
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "title": "Implement self-service sandbox provisioning",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/pull/23",
+        "state": "open",
+        "created_at": "2026-03-04T11:00:00Z"
+      }
+    ]
+  },
+  "pull_requests_merged": {
+    "total_count": 1,
+    "details": [
+      {
+        "repo": "ansible-tmm/ee-builds",
+        "title": "Q1 collection version bumps and terraform addition",
+        "url": "https://github.com/ansible-tmm/ee-builds/pull/15",
+        "merged_at": "2026-03-05T14:00:00Z"
+      }
+    ]
+  },
+  "pull_requests_reviewed": {
+    "total_count": 2,
+    "details": [
+      {
+        "repo": "ansible/product-demos",
+        "title": "Update bootstrap branch for AAP 2.5",
+        "url": "https://github.com/ansible/product-demos/pull/312"
+      },
+      {
+        "repo": "ansible-tmm/network-automation",
+        "title": "Add VXLAN overlay configuration role",
+        "url": "https://github.com/ansible-tmm/network-automation/pull/8"
+      }
+    ]
+  },
+  "issues_opened": {
+    "total_count": 1,
+    "details": [
+      {
+        "repo": "ansible/workshops",
+        "title": "Lab 3 networking exercise needs updated topology diagram",
+        "url": "https://github.com/ansible/workshops/issues/850",
+        "created_at": "2026-03-04T13:00:00Z"
+      }
+    ]
+  },
+  "issues_closed": {
+    "total_count": 2,
+    "details": [
+      {
+        "repo": "ansible-tmm/demo-provisioner",
+        "title": "Sandbox instances not cleaning up after 4 hours",
+        "url": "https://github.com/ansible-tmm/demo-provisioner/issues/20",
+        "closed_at": "2026-03-04T09:30:00Z"
+      },
+      {
+        "repo": "ansible-tmm/ee-builds",
+        "title": "Missing cloud.terraform collection in standard EE",
+        "url": "https://github.com/ansible-tmm/ee-builds/issues/14",
+        "closed_at": "2026-03-05T10:00:00Z"
+      }
+    ]
+  },
+  "repositories_created": {
+    "total_count": 0,
+    "details": []
+  }
+}
